@@ -1,0 +1,27 @@
+.carousel-item img {
+  /* max-width: 70%; */
+  object-fit: cover;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+footer i {
+  font-size: 2rem;
+  color: white;
+  margin-right: 0.8rem;
+  transition: color 1s;
+}
+
+footer i:hover {
+  color: #198754;
+}
+
+.contact a {
+  transition: color 1s;
+  /* text-decoration: none; */
+  color: black;
+  /* border: 1px solid black; */
+  /* border-radius: ; */
+  width: 10.7rem;
+}

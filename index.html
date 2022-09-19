@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Made In Mapi</title>
+    <link rel="shortcut icon" href="mapi.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light fixed-top navbar-expand-lg">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand align-items-center justify-content-center"
+          href="#"
+        >
+          <img
+            src="mapi.png"
+            alt="Logo"
+            width="80"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          berebruise
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse fw-bold fs-5"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                ><i class="fa-solid fa-house"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tshirt"
+                ><i class="fa-solid fa-shirt"></i> T-Shirt</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hoodie">
+                <i class="fa-solid fa-user-secret"></i> Hoodie</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sock">
+                <i class="fa-solid fa-socks"></i> Sock</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"
+                ><i class="fa-solid fa-phone"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="https://images.unsplash.com/photo-1616006897093-5e4635c0de35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              class="d-block w-auto m-auto"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn btn-success">Order Now</button>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="https://images.unsplash.com/photo-1610142991820-e02266a4a9f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              class="d-block w-auto m-auto"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn btn-success">Order Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1581936994138-29392157cf29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              class="d-block w-auto m-auto"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn btn-success">Order Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1623113562225-694f6a2ee75e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              class="d-block w-auto m-auto"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn btn-success">Order Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1623256786459-8ae5e1a31c77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              class="d-block w-auto m-auto"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn btn-success">Order Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1600328759671-85927887458d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTIyfHx0JTIwc2hpcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+              class="d-block w-auto m-auto"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn btn-success">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container p-4 bg-dark mt-3">
+      <div class="col">
+        <div class="row d-flex justify-content-center m-auto gap-2">
+          <h2 class="text-center text-light display-3 fw-semibold" id="tshirt">
+            T-SHIRTS
+          </h2>
+
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container p-4 bg-light">
+      <div class="col">
+        <div class="row d-flex justify-content-center m-auto gap-2">
+          <h2 class="text-center text-dark display-3 fw-semibold" id="hoodie">
+            HOODIE
+          </h2>
+
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container p-4 bg-dark">
+      <div class="col">
+        <div class="row d-flex justify-content-center m-auto gap-2">
+          <h2 class="text-center text-light display-3 fw-semibold" id="sock">
+            SOCK
+          </h2>
+
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+          <div class="card col-md-4 col-lg-2" style="width: 18rem">
+            <img src="mapi.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Mapi</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact container p-4 bg-light">
+      <div class="row g-4 text-center mb-4">
+        <h2 class="text-center text-dark display-3 fw-semibold" id="contact">
+          CONTACT
+        </h2>
+        <div class="col-md-4 fs-4">
+          <i class="fa-brands fa-instagram fa-2x"></i>
+          <h4>Instagram</h4>
+          <a
+            href="https://www.instagram.com/madein.mapi/"
+            class="btn btn-success"
+            >Mapi Social Account</a
+          >
+        </div>
+        <div class="col-md-4 fs-4">
+          <i class="fa-brands fa-whatsapp fa-2x"></i>
+          <h4>Whatsapp</h4>
+          <a href="https://wa.me/+90234556565" class="btn btn-success"
+            >Send Message</a
+          >
+        </div>
+        <div class="col-md-4 fs-4">
+          <i class="fa-regular fa-envelope fa-2x"></i>
+          <h4>Email</h4>
+          <a href="mailto:info@clarusway.com" class="btn btn-success"
+            >Send Mail</a
+          >
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d775387.0221497285!2d28.909917989224297!3d40.611010465937156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca3ac538bb6693%3A0xd0913c83c1a32c46!2zVWx1ZGHEnyBNaWxsaSBQYXJrxLE!5e0!3m2!1str!2str!4v1663622773423!5m2!1str!2str"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center mt-2">
+      <footer class="bg-dark text-light p-3 fs-3">
+        <section>
+          <i class="fa-brands fa-whatsapp fa-2x"></i>
+          <i class="fa-brands fa-instagram fa-2x"></i>
+          <i class="fa-brands fa-twitter fa-2x"></i>
+          <i class="fa-solid fa-envelope fa-2x"></i>
+          <i class="fa-solid fa-location-dot fa-2x"></i>
+        </section>
+        <section class="fs-4">
+          &copy
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Copyright by
+          <span class="text-success fw-semibold">Made in MAPİ</span>
+        </section>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
