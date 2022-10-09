@@ -29,7 +29,7 @@ mapi (folder)
 ### Screenshot
 
 <p align="center">
-<a href="https://sezginakgul.github.io/mapi/"><img src="mapi.gif" alt="screenshot" width="100%"></a>
+<a href="https://sezginakgul.github.io/mapi/"><img src="mapi.gif" alt="screenshot" width="50%"></a>
 </p>
 
 
